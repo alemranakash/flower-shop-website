@@ -1,0 +1,46 @@
+/* *common used styles */
+*{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+
+/* *header */
+.header-container{
+    background-color:rgba(229, 84, 115, 0.10);
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header h1{
+    color: #272727;
+font-size: 80px;
+font-weight: 800;
+}
+header p {
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding-bottom: 32px;
+
+}
+header button{
+    display: inline-flex;
+    color: #FFFFFF;
+padding: 20px 43px;
+align-items: flex-start;
+gap: 10px;
+border: none;
+border-radius: 8px;
+background: #E55473;
+}
+.header-text{
+    margin: 100px 50px;
+}
+/* *===================================== */
+
+/* *main  */
