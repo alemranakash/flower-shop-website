@@ -64,6 +64,7 @@ margin: auto;
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
+margin-top: 20px;
 }
 /* *================================== */
 /* *section 2 */
@@ -171,3 +172,120 @@ margin-top: 100px;
 .off{
     color: #E55473;
 }
+/* *===================================== */
+/* *section 5 */
+.sec5{
+    margin-top: 100px;
+}
+.sec5 h2{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.sec5 p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+width: 50%;
+margin: auto;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-top: 20px;
+margin-bottom: 50px;
+}
+/* *======================================= */
+/* *section 6 */
+.sec6-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 55px;
+    margin-bottom: 100px;
+    
+}
+.sec6-container img{
+    width: 300px;
+flex-shrink: 0;
+}
+/* *=========================== */
+/* *section 7 */
+.sec7-container{
+height: 400px;
+background-image: url("../Flower Asset/Rectangle 9.png");
+background-repeat: no-repeat;
+background-size: cover;
+flex-shrink: 0;
+margin: 55px;
+text-align: center;
+}
+.sec7-item{
+    display: inline-block;
+    padding-top: 50px;
+    
+}
+.sec7-container h2{
+padding-top: 100px;
+color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.sec7-container p{
+    padding-top: 20px;
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+    }
+.sec7-item input{
+    width: 500px;
+    height: 40px;
+    border: 0px;
+    padding: 10px;
+    border-radius: 8px;
+background: #FFF;
+    flex-shrink: 0;
+}
+.sec7-item button{
+    border-radius: 8px;
+    background: #E55473;width: 150px;
+    height: 60px;
+    flex-shrink: 0;
+    border: 0px;
+    color: white;
+    margin-left: 5px;
+}
+/* *====================== */
+/* *footer */
+.flower{
+    color: #E55473;
+}
+.footer{
+    text-align: center;
+    background-color: #111010;
+}
+.footer h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFFFFF;
+    padding-top: 100px;
+}
+.footer-p1{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 300px;
+}
+.footer-p2{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+/* *========================= */
