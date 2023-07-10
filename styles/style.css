@@ -44,3 +44,59 @@ background: #E55473;
 /* *===================================== */
 
 /* *main  */
+/* *section 1 */
+.sec1{
+    margin-top: 100px;
+}
+.sec1 h2{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.sec1 p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+width: 50%;
+margin: auto;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+/* *================================== */
+/* *section 2 */
+.sec2-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   margin: 20px;
+}
+.sec2-container img{
+    padding: 30px;
+    padding-bottom: 0px;
+}
+.sec2-item1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+    width: 400px;
+height: 500px;
+}
+.sec2-item2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 400px;
+height: 500px;
+}
+.sec2-item3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 400px;
+height: 500px;
+}
+.sec2-container p{
+    text-align: center;
+    margin-top: 30px;
+}
+/* *=========================== */
+/* *section 3 */
