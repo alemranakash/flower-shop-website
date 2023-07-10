@@ -4,6 +4,8 @@
 font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Work Sans', sans-serif;
+padding: 0px;
+margin: 0px;
 }
 
 
@@ -69,7 +71,8 @@ line-height: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-   margin: 20px;
+   margin: 60px;
+   gap: 20px;
 }
 .sec2-container img{
     padding: 30px;
@@ -97,6 +100,74 @@ height: 500px;
 .sec2-container p{
     text-align: center;
     margin-top: 30px;
+    color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
 }
 /* *=========================== */
 /* *section 3 */
+.sec3-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+margin: 30px 55px;
+padding: 40px 80px;
+}
+.sec3-container p{
+    color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-size: 24px;
+font-weight: 600;
+line-height: 35px;
+}
+/* *==================== */
+/* *section 4 */
+.sec4-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 550px;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+margin-top: 100px;
+}
+.sec4-photo{
+  margin: 100px;
+
+}
+.sec4-text{
+    margin: 10px 100px;
+}
+.sec4-text h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.sec4-text p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.sec4-text button{
+    border-radius: 8px;
+    background: #E55473;display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFFFFF;
+    border: 0px;
+}
+.off{
+    color: #E55473;
+}
